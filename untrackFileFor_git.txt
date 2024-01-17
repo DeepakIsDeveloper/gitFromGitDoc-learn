@@ -1,0 +1,5 @@
+The git rm --cached file command is used to untrack a file in Git without deleting it from your working directory. Here's a breakdown of what this command does:
+
+git rm: This command is used to remove files from the working tree and the index (staging area) in Git.
+--cached: This option specifies that you only want to remove the file from the index (staging area) and not from the working directory. This means the file will be untracked, but it will still exist in your local file system.
+file: Replace this with the actual filename you want to untrack.
